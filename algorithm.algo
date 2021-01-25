@@ -1,0 +1,25 @@
+ALGORITHM Insertion_sort 
+VAR
+a : ARRAY OF itmes 
+n : size of list
+i , j , value : INTEGER 
+BEGIN
+   FOR i FROM 1 TO n-1
+       { value = a[i] ;
+         j = i - 1 ;
+   WHILE{(j >= 0 && arr[j] > value ) 
+        arr[j+1]= arr[j];
+         j=j-1;
+   
+
+   
+    
+    END_WHILE
+    
+   END_FOR  
+  
+    }
+  
+      }
+   
+END
